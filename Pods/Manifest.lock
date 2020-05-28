@@ -1,0 +1,16 @@
+PODS:
+  - UICheckbox.Swift (1.0.0)
+
+DEPENDENCIES:
+  - UICheckbox.Swift
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - UICheckbox.Swift
+
+SPEC CHECKSUMS:
+  UICheckbox.Swift: 85715689206fac5bae38b308f19c2a3e00442c3b
+
+PODFILE CHECKSUM: 653b67f81ca50dde5bc54e23690d95b50938c733
+
+COCOAPODS: 1.7.5

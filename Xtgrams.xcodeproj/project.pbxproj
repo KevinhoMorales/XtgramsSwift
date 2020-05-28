@@ -3,27 +3,53 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A16E12E233FD73F00D25C11 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A16E12D233FD73F00D25C11 /* ViewController.swift */; };
+		2A22A791233C7CC4006D17BD /* IndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A22A790233C7CC4006D17BD /* IndicatorView.swift */; };
+		2A26B9F22342D0F20096A86F /* Report.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A26B9F12342D0F20096A86F /* Report.swift */; };
+		2A417330233D1B5500A340F7 /* Terms&Conditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A41732F233D1B5500A340F7 /* Terms&Conditions.swift */; };
+		2A5730BC233D4CB2009A3B45 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5730BB233D4CB2009A3B45 /* Settings.swift */; };
+		2A5B5231233EA46700646552 /* TutorialPageContentHolderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5B522E233EA46700646552 /* TutorialPageContentHolderViewController.swift */; };
+		2A5B5232233EA46700646552 /* TutorialSmartKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5B522F233EA46700646552 /* TutorialSmartKey.swift */; };
+		2A5B5233233EA46700646552 /* TheNextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5B5230233EA46700646552 /* TheNextViewController.swift */; };
+		2A5B5238233EA4C900646552 /* NavigationStart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5B5237233EA4C900646552 /* NavigationStart.swift */; };
 		2AC42ABA233C67F900645E72 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC42AB9233C67F900645E72 /* AppDelegate.swift */; };
 		2AC42ABC233C67F900645E72 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC42ABB233C67F900645E72 /* SceneDelegate.swift */; };
-		2AC42ABE233C67F900645E72 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC42ABD233C67F900645E72 /* ViewController.swift */; };
+		2AC42ABE233C67F900645E72 /* Welcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC42ABD233C67F900645E72 /* Welcome.swift */; };
 		2AC42AC1233C67F900645E72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AC42ABF233C67F900645E72 /* Main.storyboard */; };
 		2AC42AC3233C67FB00645E72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AC42AC2233C67FB00645E72 /* Assets.xcassets */; };
 		2AC42AC6233C67FB00645E72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AC42AC4233C67FB00645E72 /* LaunchScreen.storyboard */; };
+		2AC42ACE233C6AB000645E72 /* XtgramsWeb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC42ACD233C6AB000645E72 /* XtgramsWeb.swift */; };
+		2AD6B3A22341B0D10083EFF2 /* PDF in Resources */ = {isa = PBXBuildFile; fileRef = 2AD6B3A12341B0D10083EFF2 /* PDF */; };
+		B9CB7F1DCFF2677C86E16B33 /* Pods_Xtgrams.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD490DB8A19C83F1A0320210 /* Pods_Xtgrams.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2A16E12D233FD73F00D25C11 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2A22A790233C7CC4006D17BD /* IndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndicatorView.swift; sourceTree = "<group>"; };
+		2A26B9F12342D0F20096A86F /* Report.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Report.swift; sourceTree = "<group>"; };
+		2A41732F233D1B5500A340F7 /* Terms&Conditions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Terms&Conditions.swift"; sourceTree = "<group>"; };
+		2A5730BB233D4CB2009A3B45 /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		2A5B522E233EA46700646552 /* TutorialPageContentHolderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialPageContentHolderViewController.swift; sourceTree = "<group>"; };
+		2A5B522F233EA46700646552 /* TutorialSmartKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialSmartKey.swift; sourceTree = "<group>"; };
+		2A5B5230233EA46700646552 /* TheNextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TheNextViewController.swift; sourceTree = "<group>"; };
+		2A5B5237233EA4C900646552 /* NavigationStart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStart.swift; sourceTree = "<group>"; };
 		2AC42AB6233C67F900645E72 /* Xtgrams.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Xtgrams.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AC42AB9233C67F900645E72 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2AC42ABB233C67F900645E72 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2AC42ABD233C67F900645E72 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2AC42ABD233C67F900645E72 /* Welcome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Welcome.swift; sourceTree = "<group>"; };
 		2AC42AC0233C67F900645E72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2AC42AC2233C67FB00645E72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2AC42AC5233C67FB00645E72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2AC42AC7233C67FB00645E72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AC42ACD233C6AB000645E72 /* XtgramsWeb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XtgramsWeb.swift; sourceTree = "<group>"; };
+		2AD6B3A12341B0D10083EFF2 /* PDF */ = {isa = PBXFileReference; lastKnownFileType = folder; path = PDF; sourceTree = "<group>"; };
+		5D2563F829A2442F7231B31A /* Pods-Xtgrams.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Xtgrams.debug.xcconfig"; path = "Target Support Files/Pods-Xtgrams/Pods-Xtgrams.debug.xcconfig"; sourceTree = "<group>"; };
+		727AC37F9E502F486728304F /* Pods-Xtgrams.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Xtgrams.release.xcconfig"; path = "Target Support Files/Pods-Xtgrams/Pods-Xtgrams.release.xcconfig"; sourceTree = "<group>"; };
+		DD490DB8A19C83F1A0320210 /* Pods_Xtgrams.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Xtgrams.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +57,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9CB7F1DCFF2677C86E16B33 /* Pods_Xtgrams.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A5B5234233EA46E00646552 /* Tutorial */ = {
+			isa = PBXGroup;
+			children = (
+				2A5B5230233EA46700646552 /* TheNextViewController.swift */,
+				2A5B522E233EA46700646552 /* TutorialPageContentHolderViewController.swift */,
+				2A5B522F233EA46700646552 /* TutorialSmartKey.swift */,
+			);
+			path = Tutorial;
+			sourceTree = "<group>";
+		};
 		2AC42AAD233C67F900645E72 = {
 			isa = PBXGroup;
 			children = (
 				2AC42AB8233C67F900645E72 /* Xtgrams */,
 				2AC42AB7233C67F900645E72 /* Products */,
+				C1D71AF7F822D0F106E00A55 /* Pods */,
+				A19B3C62E12EAC2461FC4FEE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +95,41 @@
 		2AC42AB8233C67F900645E72 /* Xtgrams */ = {
 			isa = PBXGroup;
 			children = (
+				2AD6B3A12341B0D10083EFF2 /* PDF */,
 				2AC42AB9233C67F900645E72 /* AppDelegate.swift */,
+				2A16E12D233FD73F00D25C11 /* ViewController.swift */,
+				2A5B5234233EA46E00646552 /* Tutorial */,
 				2AC42ABB233C67F900645E72 /* SceneDelegate.swift */,
-				2AC42ABD233C67F900645E72 /* ViewController.swift */,
+				2A22A790233C7CC4006D17BD /* IndicatorView.swift */,
+				2AC42ABD233C67F900645E72 /* Welcome.swift */,
+				2A5730BB233D4CB2009A3B45 /* Settings.swift */,
+				2A26B9F12342D0F20096A86F /* Report.swift */,
+				2A5B5237233EA4C900646552 /* NavigationStart.swift */,
+				2AC42ACD233C6AB000645E72 /* XtgramsWeb.swift */,
+				2A41732F233D1B5500A340F7 /* Terms&Conditions.swift */,
 				2AC42ABF233C67F900645E72 /* Main.storyboard */,
 				2AC42AC2233C67FB00645E72 /* Assets.xcassets */,
 				2AC42AC4233C67FB00645E72 /* LaunchScreen.storyboard */,
 				2AC42AC7233C67FB00645E72 /* Info.plist */,
 			);
 			path = Xtgrams;
+			sourceTree = "<group>";
+		};
+		A19B3C62E12EAC2461FC4FEE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD490DB8A19C83F1A0320210 /* Pods_Xtgrams.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C1D71AF7F822D0F106E00A55 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5D2563F829A2442F7231B31A /* Pods-Xtgrams.debug.xcconfig */,
+				727AC37F9E502F486728304F /* Pods-Xtgrams.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +139,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2AC42ACA233C67FB00645E72 /* Build configuration list for PBXNativeTarget "Xtgrams" */;
 			buildPhases = (
+				AA8D519975736231EA1C1180 /* [CP] Check Pods Manifest.lock */,
 				2AC42AB2233C67F900645E72 /* Sources */,
 				2AC42AB3233C67F900645E72 /* Frameworks */,
 				2AC42AB4233C67F900645E72 /* Resources */,
+				D9C7EE95A6C15336B239A5CB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,6 +192,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AD6B3A22341B0D10083EFF2 /* PDF in Resources */,
 				2AC42AC6233C67FB00645E72 /* LaunchScreen.storyboard in Resources */,
 				2AC42AC3233C67FB00645E72 /* Assets.xcassets in Resources */,
 				2AC42AC1233C67F900645E72 /* Main.storyboard in Resources */,
@@ -133,14 +201,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		AA8D519975736231EA1C1180 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Xtgrams-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9C7EE95A6C15336B239A5CB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Xtgrams/Pods-Xtgrams-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Xtgrams/Pods-Xtgrams-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Xtgrams/Pods-Xtgrams-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2AC42AB2233C67F900645E72 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2AC42ABE233C67F900645E72 /* ViewController.swift in Sources */,
+				2A5B5232233EA46700646552 /* TutorialSmartKey.swift in Sources */,
+				2AC42ABE233C67F900645E72 /* Welcome.swift in Sources */,
+				2A5B5231233EA46700646552 /* TutorialPageContentHolderViewController.swift in Sources */,
 				2AC42ABA233C67F900645E72 /* AppDelegate.swift in Sources */,
 				2AC42ABC233C67F900645E72 /* SceneDelegate.swift in Sources */,
+				2A26B9F22342D0F20096A86F /* Report.swift in Sources */,
+				2A5B5238233EA4C900646552 /* NavigationStart.swift in Sources */,
+				2A16E12E233FD73F00D25C11 /* ViewController.swift in Sources */,
+				2AC42ACE233C6AB000645E72 /* XtgramsWeb.swift in Sources */,
+				2A5730BC233D4CB2009A3B45 /* Settings.swift in Sources */,
+				2A5B5233233EA46700646552 /* TheNextViewController.swift in Sources */,
+				2A417330233D1B5500A340F7 /* Terms&Conditions.swift in Sources */,
+				2A22A791233C7CC4006D17BD /* IndicatorView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +336,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +390,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -282,17 +402,23 @@
 		};
 		2AC42ACB233C67FB00645E72 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D2563F829A2442F7231B31A /* Pods-Xtgrams.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = 5S22W76BBZ;
 				INFOPLIST_FILE = Xtgrams/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.kevinhomorales.Xtgrams;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thegoldb.xtgramsswift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -300,17 +426,23 @@
 		};
 		2AC42ACC233C67FB00645E72 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 727AC37F9E502F486728304F /* Pods-Xtgrams.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = 5S22W76BBZ;
 				INFOPLIST_FILE = Xtgrams/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.kevinhomorales.Xtgrams;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thegoldb.xtgramsswift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
